@@ -1,0 +1,277 @@
+body {
+  font-family: 'Onest', sans-serif;
+  width: 1440px;
+  margin: auto;
+}
+
+.banner {
+  width: 1440px;
+  height: 90px;
+  background-image: url('../images/background.svg');
+}
+
+.normal-text {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16.9px;
+  font-family: 'Onest';
+}
+
+.bold-text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.8px;
+  font-family: 'Onest';
+}
+
+.color-highlight {
+  color: #136EF6;
+}
+
+.left-section .schoolbag-col img {
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.left-section .banner-text-section1 {
+  margin-top: 15px;
+  padding: 0px;
+}
+
+.left-section .banner-text1 {
+  margin-top: 5px;
+}
+
+.left-section .arrows1-col img {
+  margin-top: 22px;
+  margin-left: -5px;
+}
+
+.banner-text-section2 {
+  margin-top: 17px;
+  margin-left: 52px;
+  padding-right: 0px;
+}
+
+.banner-text-section2 .banner-text2 {
+  margin-bottom: 2px;
+}
+
+.arrows2-col {
+  padding-left: 0px;
+  margin-right: 10px;
+  margin-left: -12px;
+}
+
+.arrows2-col img {
+  margin-top: 43px;
+}
+
+.banner-button-col {
+  margin-left: 12px;
+  padding: 0px;
+}
+
+.banner-button-col button {
+  width: 160px;
+  height: 29px;
+  margin-top: 31px;
+  border: none;
+  background: #136EF6;
+  border-radius: 5px;
+  font-family: 'Onest';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.2px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.computer-icon {
+  padding-left: 48px;
+  margin-top: 37px;
+}
+
+.modal-dialog {
+  max-width: 930px;
+}
+
+.modal-content {
+  height: 440px;
+  background-image: url('../images/background-modal.svg');
+  padding: 0px;
+}
+
+.modal-header {
+  border: none;
+}
+
+.modal-body {
+  padding: 0px;
+}
+
+.modal-text-section {
+  padding: 0 0 0 45px;
+  margin: 0px;
+}
+
+.modal-text-section .modal-title {
+  font-family: 'Onest';
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 44.2px;
+  text-align: left;
+
+  color: #136EF6;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.modal-text-section .text-get-gifts {
+  font-family: 'Onest';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  text-align: left;
+
+  margin-left: 10px;
+}
+
+.modal-text-section .icon-col {
+  padding: 0px;
+  margin-right: 8px;
+}
+
+.modal-text-section .icon-revenue {
+  margin-left: 20px;
+}
+
+.modal-text-section .icon-chat {
+  margin-left: 20px;
+}
+
+.modal-text-section .icon-notes {
+  margin-left: 20px;
+}
+
+.gift-descrition {
+  font-family: 'Onest';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+
+  margin-bottom: 10px;
+}
+
+.gift-descrition-bold-text {
+  font-family: 'Onest';
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: left;
+}
+
+.modal-note-text {
+  font-family: 'Onest';
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15.6px;
+  text-align: left;
+
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.modal-form-section {
+  padding-top: 18px;
+  padding-left: 34px;
+  padding-right: 18px;
+}
+
+.modal-form-section input {
+  width: 260px;
+  height: 50px;
+  border-radius: 5px;
+  border-width: 0.5px;
+  border-color: #136EF6;
+  border-style: solid;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.form-select {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  border: 1px solid #c7cdd3;
+  border-radius: 5px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: #FFFFFF;
+  /* color: #4A4A53; */
+}
+
+.form-select option {
+  padding: 10px;
+}
+
+.modal-form-section select {
+  width: 260px;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border-width: 0.5px;
+  border-color: #136EF6;
+  border-style: solid;
+}
+
+.modal-button {
+  width: 260px;
+  height: 44px;
+  padding: 15px 55px 15px 55px;
+  gap: 0px;
+  border-radius: 5px;
+  opacity: 0px;
+  font-family: 'Onest';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  text-align: center;
+  color: #FCFCFC;
+  background: #136EF6;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.legal-text {
+  font-family: 'Onest';
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  text-align: left;
+  color: #4A4A53;
+}
+
+.legal-text-underline {
+  font-family: 'Onest';
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  text-align: left;
+  color: #4A4A53;
+}
+
+.modal-arrow-section {
+  padding: 0;
+}
+
+.modal-arrow {
+  margin-top: 193px;
+}
